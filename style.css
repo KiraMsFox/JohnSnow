@@ -75,11 +75,11 @@ body
 .gallery {
     margin-left: 57px;
     margin-right: 57px;
+    width: 911px;
     display: flex;
     justify-content: space-between;
 }
 .gallery-item {
-    
     width: 206px;
     height: 206px;
     position: relative;
