@@ -14,7 +14,6 @@ body
     height: 51px;
     text-align: center;
     margin: 0px 0px;
-    
 }
 .history
     {font-size: 14px;
@@ -65,10 +64,39 @@ body
     margin-right: 123px;
 }
 .socials {
-    width: 85px;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 .social-link:hover {
     position: relative;
     bottom: 5px;
+}
+.gallery {
+    margin-left: 57px;
+    margin-right: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-item {
+    
+    width: 206px;
+    height: 206px;
+    position: relative;
+}
+.gallery-label {
+    display: none;
+    background-color: #1A142D;
+    color: white;
+    margin: 0px;
+    padding: 5px 12px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.gallery-item:hover .gallery-label {
+    display: block;
 }
