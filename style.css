@@ -63,5 +63,12 @@ body
     width: 467px;
     margin-top: 64px;
     margin-right: 123px;
-
+}
+.socials {
+    width: 85px;
+    margin-left: 100px;
+}
+.social-link:hover {
+    position: relative;
+    bottom: 5px;
 }
